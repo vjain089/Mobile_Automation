@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('/Users/vaibhavjain/Downloads/foodordering.apk', true)
+Mobile.startApplication('/Users/vaibhavjain/Downloads/foodordering.apk', false)
 
 Mobile.tap(findTestObject('Object Repository/Android_Food_Order/android.widget.TextView - Skip Login'), 0)
 

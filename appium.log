@@ -1,37 +1,36 @@
-[35m[Appium][39m Welcome to Appium v2.0.0-rc.5
+[35m[Appium][39m Welcome to Appium v2.0.0-beta.71
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m { loglevel: [32m'info'[39m, port: [33m60719[39m }
+[35m[Appium][39m { loglevel: [32m'info'[39m, port: [33m51785[39m }
 [35m[Appium][39m Attempting to load driver xcuitest...
 [Appium] Attempting to load driver uiautomator2...
-[Appium] Appium REST http interface listener started on http://0.0.0.0:60719
-[Appium] You can provide the following URLS in your client code to connect to this server:
-[Appium] 	http://127.0.0.1:60719/ (only accessible from the same host)
-[Appium] 	http://192.168.225.40:60719/
+[Appium] Attempting to load driver flutter...
+[Appium] Appium REST http interface listener started on 0.0.0.0:51785
 [Appium] Available drivers:
 [Appium]   - xcuitest@4.32.0 (automationName 'XCUITest')
 [Appium]   - uiautomator2@2.26.0 (automationName 'UiAutomator2')
+[Appium]   - flutter@1.16.0 (automationName 'Flutter')
 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
 [38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/status[39m
 [38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /status 200 4 ms - 44
+[38;5;0m[HTTP][0m <-- GET /status 200 3 ms - 47
 [38;5;0m[HTTP][0m 
 [38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/status[39m
 [38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /status 200 2 ms - 44
+[38;5;0m[HTTP][0m <-- GET /status 200 1 ms - 47
 [38;5;0m[HTTP][0m 
 [38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
-[38;5;0m[HTTP][0m {"desiredCapabilities":{"appium:systemPort":60775,"appium:newCommandTimeout":1800,"appium:platform":"ANDROID","appium:automationName":"uiautomator2","appium:fullReset":false,"appium:platformVersion":"13","appium:noReset":true,"appium:udid":"emulator-5554","appium:autoGrantPermissions":true,"appium:deviceName":"emulator-5554 (sdk_gphone64_arm64 - Android 13)","platformName":"Android","appium:app":"/Users/vaibhavjain/Downloads/foodordering.apk"},"capabilities":{"firstMatch":[{"appium:app":"/Users/vaibhavjain/Downloads/foodordering.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (sdk_gphone64_arm64 - Android 13)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platform":"ANDROID","appium:platformVersion":"13","appium:systemPort":60775,"appium:udid":"emulator-5554","platformName":"android"}]}}
+[38;5;0m[HTTP][0m {"desiredCapabilities":{"appium:systemPort":51868,"appium:newCommandTimeout":1800,"appium:platform":"ANDROID","appium:automationName":"uiautomator2","appium:fullReset":false,"appium:platformVersion":"13","appium:noReset":true,"appium:udid":"emulator-5554","appium:autoGrantPermissions":true,"appium:deviceName":"emulator-5554 (sdk_gphone64_arm64 - Android 13)","platformName":"Android","appium:app":"/Users/vaibhavjain/Downloads/foodordering.apk"},"capabilities":{"firstMatch":[{"appium:app":"/Users/vaibhavjain/Downloads/foodordering.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (sdk_gphone64_arm64 - Android 13)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platform":"ANDROID","appium:platformVersion":"13","appium:systemPort":51868,"appium:udid":"emulator-5554","platformName":"android"}]}}
 [Appium] Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
 [Appium] The 'uiautomator2' driver was installed and matched caps.
 [Appium] Will require it at /Users/vaibhavjain/.appium/node_modules/appium-uiautomator2-driver
-[38;5;16m[AppiumDriver@2a0e][0m Appium v2.0.0-rc.5 creating new AndroidUiautomator2Driver (v2.26.0) session
-[38;5;16m[AppiumDriver@2a0e][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
-[38;5;16m[AppiumDriver@2a0e][0m Appium's BaseDriver version is 9.3.15
-[38;5;16m[AppiumDriver@2a0e][0m AndroidUiautomator2Driver's BaseDriver version is 9.3.15
-[38;5;32m[AndroidUiautomator2Driver@ad48][0m The following capabilities were provided, but are not recognized by Appium:
-[38;5;32m[AndroidUiautomator2Driver@ad48][0m   deviceName
-[38;5;32m[AndroidUiautomator2Driver@ad48][0m   platform
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Session created with session id: 37187446-9d96-4519-8a7f-c5421aa45510
+[38;5;16m[AppiumDriver@ab95][0m Appium v2.0.0-beta.71 creating new AndroidUiautomator2Driver (v2.26.0) session
+[38;5;16m[AppiumDriver@ab95][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@ab95][0m Appium's BaseDriver version is 9.3.15
+[38;5;16m[AppiumDriver@ab95][0m AndroidUiautomator2Driver's BaseDriver version is 9.3.15
+[38;5;32m[AndroidUiautomator2Driver@973b][0m The following capabilities were provided, but are not recognized by Appium:
+[38;5;32m[AndroidUiautomator2Driver@973b][0m   deviceName
+[38;5;32m[AndroidUiautomator2Driver@973b][0m   platform
+[38;5;32m[AndroidUiautomator2Driver@973b (6ea00343)][0m Session created with session id: 6ea00343-c3e3-4c91-86a3-864689f33d64
 [38;5;48m[BaseDriver][0m Using local app '/Users/vaibhavjain/Downloads/foodordering.apk'
 [38;5;64m[ADB][0m Found 1 'build-tools' folders under '/Users/vaibhavjain/.katalon/tools/android_sdk' (newest first):
 [38;5;64m[ADB][0m     /Users/vaibhavjain/.katalon/tools/android_sdk/build-tools/29.0.3
@@ -40,529 +39,59 @@
 [38;5;80m[AndroidDriver][0m Using device: emulator-5554
 [38;5;64m[ADB][0m Using 'adb' from '/Users/vaibhavjain/.katalon/tools/android_sdk/platform-tools/adb'
 [38;5;64m[ADB][0m Getting device platform version
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Relaxing hidden api policy
+[38;5;32m[AndroidUiautomator2Driver@973b (6ea00343)][0m Relaxing hidden api policy
 [38;5;64m[ADB][0m Package name: 'com.abhiandroid.foodorderingindia'
 [38;5;64m[ADB][0m Main activity name: 'com.abhiandroid.foodorderingindia.Activities.SplashScreen'
 [38;5;64m[ADB][0m Using 'apksigner.jar' from '/Users/vaibhavjain/.katalon/tools/android_sdk/build-tools/29.0.3/lib/apksigner.jar'
 [38;5;64m[ADB][0m '/Users/vaibhavjain/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.11.1.apk' is signed with the default certificate
 [38;5;64m[ADB][0m '/Users/vaibhavjain/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Server packages are not going to be (re)installed
+[38;5;32m[AndroidUiautomator2Driver@973b (6ea00343)][0m Server packages are not going to be (re)installed
 [38;5;64m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
 [38;5;64m[ADB][0m '/Users/vaibhavjain/Downloads/foodordering.apk' is signed with a non-default certificate
 [38;5;64m[ADB][0m The application at '/Users/vaibhavjain/Downloads/foodordering.apk' will not be cached, because the device under test has confirmed the support of streamed installs
-[38;5;64m[ADB][0m The installation of 'foodordering.apk' took 2480ms
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Starting UIAutomator2 server 5.11.1
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Using UIAutomator2 server from '/Users/vaibhavjain/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.11.1.apk' and test from '/Users/vaibhavjain/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Waiting up to 30000ms for UiAutomator2 to be online...
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m socket hang up
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m socket hang up
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m socket hang up
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m socket hang up
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m socket hang up
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m socket hang up
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m socket hang up
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Determined the downstream protocol as 'W3C'
+[38;5;64m[ADB][0m The installation of 'foodordering.apk' took 820ms
+[38;5;32m[AndroidUiautomator2Driver@973b (6ea00343)][0m Starting UIAutomator2 server 5.11.1
+[38;5;32m[AndroidUiautomator2Driver@973b (6ea00343)][0m Using UIAutomator2 server from '/Users/vaibhavjain/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.11.1.apk' and test from '/Users/vaibhavjain/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;32m[AndroidUiautomator2Driver@973b (6ea00343)][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;32m[AndroidUiautomator2Driver@973b (6ea00343)][0m socket hang up
+[38;5;32m[AndroidUiautomator2Driver@973b (6ea00343)][0m socket hang up
+[38;5;32m[AndroidUiautomator2Driver@973b (6ea00343)][0m socket hang up
+[38;5;32m[AndroidUiautomator2Driver@973b (6ea00343)][0m socket hang up
+[38;5;32m[AndroidUiautomator2Driver@973b (6ea00343)][0m Determined the downstream protocol as 'W3C'
 [38;5;80m[AndroidDriver][0m Screen already unlocked, doing nothing
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Starting 'com.abhiandroid.foodorderingindia/com.abhiandroid.foodorderingindia.Activities.SplashScreen and waiting for 'com.abhiandroid.foodorderingindia/com.abhiandroid.foodorderingindia.Activities.SplashScreen'
-[38;5;16m[AppiumDriver@2a0e][0m New AndroidUiautomator2Driver session created successfully, session 37187446-9d96-4519-8a7f-c5421aa45510 added to master session list
-[38;5;0m[HTTP][0m <-- POST /session 200 25122 ms - 1244
+[38;5;32m[AndroidUiautomator2Driver@973b (6ea00343)][0m Starting 'com.abhiandroid.foodorderingindia/com.abhiandroid.foodorderingindia.Activities.SplashScreen and waiting for 'com.abhiandroid.foodorderingindia/com.abhiandroid.foodorderingindia.Activities.SplashScreen'
+[38;5;16m[AppiumDriver@ab95][0m New AndroidUiautomator2Driver session created successfully, session 6ea00343-c3e3-4c91-86a3-864689f33d64 added to master session list
+[38;5;0m[HTTP][0m <-- POST /session 200 13500 ms - 1244
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/6ea00343-c3e3-4c91-86a3-864689f33d64[39m
 [38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510 200 77 ms - 1198
+[38;5;0m[HTTP][0m <-- GET /session/6ea00343-c3e3-4c91-86a3-864689f33d64 200 22 ms - 1198
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/6ea00343-c3e3-4c91-86a3-864689f33d64[39m
 [38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510 200 23 ms - 1198
+[38;5;0m[HTTP][0m <-- GET /session/6ea00343-c3e3-4c91-86a3-864689f33d64 200 11 ms - 1198
 [38;5;0m[HTTP][0m 
 [38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/status[39m
 [38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /status 200 1 ms - 44
+[38;5;0m[HTTP][0m <-- GET /status 200 1 ms - 47
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/timeouts[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/6ea00343-c3e3-4c91-86a3-864689f33d64/timeouts[39m
 [38;5;0m[HTTP][0m {"implicit":60000}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/timeouts 200 2 ms - 14
+[38;5;0m[HTTP][0m <-- POST /session/6ea00343-c3e3-4c91-86a3-864689f33d64/timeouts 200 2 ms - 14
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/source[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/6ea00343-c3e3-4c91-86a3-864689f33d64/source[39m
 [38;5;0m[HTTP][0m {}
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Replacing sessionId 933bde5d-f9ee-46f4-a766-3d6cfbd64c2d with 37187446-9d96-4519-8a7f-c5421aa45510
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/source 200 260 ms - 2858
+[38;5;32m[AndroidUiautomator2Driver@973b (6ea00343)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;32m[AndroidUiautomator2Driver@973b (6ea00343)][0m Replacing sessionId 2782f2c6-463e-4218-b9ab-841bd9487137 with 6ea00343-c3e3-4c91-86a3-864689f33d64
+[38;5;0m[HTTP][0m <-- GET /session/6ea00343-c3e3-4c91-86a3-864689f33d64/source 200 575 ms - 2858
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/6ea00343-c3e3-4c91-86a3-864689f33d64/screenshot[39m
 [38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot 200 3347 ms - 1276136
+[38;5;0m[HTTP][0m <-- GET /session/6ea00343-c3e3-4c91-86a3-864689f33d64/screenshot 200 1087 ms - 1262556
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/source[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/session/6ea00343-c3e3-4c91-86a3-864689f33d64[39m
 [38;5;0m[HTTP][0m {}
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Replacing sessionId 933bde5d-f9ee-46f4-a766-3d6cfbd64c2d with 37187446-9d96-4519-8a7f-c5421aa45510
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/source 200 156 ms - 11335
+[38;5;16m[AppiumDriver@ab95][0m Removing session 6ea00343-c3e3-4c91-86a3-864689f33d64 from our master session list
+[38;5;32m[AndroidUiautomator2Driver@973b (6ea00343)][0m Restoring hidden api policy to the device default configuration
+[38;5;0m[HTTP][0m <-- DELETE /session/6ea00343-c3e3-4c91-86a3-864689f33d64 200 249 ms - 14
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot 200 1906 ms - 1289800
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Skip Login' or . = 'Skip Login') and @resource-id = 'com.abhiandroid.foodorderingindia:id/txtSkipLogin']"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 523 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/window/rect[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/window/rect 200 22 ms - 50
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Skip Login' or . = 'Skip Login') and @resource-id = 'com.abhiandroid.foodorderingindia:id/txtSkipLogin']"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 81 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009c-ffff-ffff00000033/location[39m
-[38;5;0m[HTTP][0m {}
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Replacing sessionId 933bde5d-f9ee-46f4-a766-3d6cfbd64c2d with 37187446-9d96-4519-8a7f-c5421aa45510
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009c-ffff-ffff00000033/location 200 16 ms - 79
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009c-ffff-ffff00000033/click[39m
-[38;5;0m[HTTP][0m {"id":"00000000-0000-009c-ffff-ffff00000033"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009c-ffff-ffff00000033/click 200 132 ms - 14
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/source[39m
-[38;5;0m[HTTP][0m {}
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Replacing sessionId 933bde5d-f9ee-46f4-a766-3d6cfbd64c2d with 37187446-9d96-4519-8a7f-c5421aa45510
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/source 200 1170 ms - 49383
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot 200 354 ms - 266860
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.LinearLayout' and (@text = '' or . = '')]"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 3309 ms - 2699
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"accessibility id","value":"Main Course"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 119 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/window/rect[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/window/rect 200 10 ms - 50
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"accessibility id","value":"Main Course"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 128 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009d-ffff-ffff0000004b/location[39m
-[38;5;0m[HTTP][0m {}
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Replacing sessionId 933bde5d-f9ee-46f4-a766-3d6cfbd64c2d with 37187446-9d96-4519-8a7f-c5421aa45510
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009d-ffff-ffff0000004b/location 200 13 ms - 78
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009d-ffff-ffff0000004b/click[39m
-[38;5;0m[HTTP][0m {"id":"00000000-0000-009d-ffff-ffff0000004b"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009d-ffff-ffff0000004b/click 200 68 ms - 14
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/source[39m
-[38;5;0m[HTTP][0m {}
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Replacing sessionId 933bde5d-f9ee-46f4-a766-3d6cfbd64c2d with 37187446-9d96-4519-8a7f-c5421aa45510
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/source 200 994 ms - 52783
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot 200 710 ms - 1729664
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.abhiandroid.foodorderingindia:id/search' and (@text = '' or . = '')]"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 220 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/window/rect[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/window/rect 200 10 ms - 50
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.abhiandroid.foodorderingindia:id/search' and (@text = '' or . = '')]"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 196 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009d-ffff-ffff00000064/location[39m
-[38;5;0m[HTTP][0m {}
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Replacing sessionId 933bde5d-f9ee-46f4-a766-3d6cfbd64c2d with 37187446-9d96-4519-8a7f-c5421aa45510
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009d-ffff-ffff00000064/location 200 15 ms - 79
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009d-ffff-ffff00000064/click[39m
-[38;5;0m[HTTP][0m {"id":"00000000-0000-009d-ffff-ffff00000064"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009d-ffff-ffff00000064/click 200 38 ms - 14
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/source[39m
-[38;5;0m[HTTP][0m {}
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Replacing sessionId 933bde5d-f9ee-46f4-a766-3d6cfbd64c2d with 37187446-9d96-4519-8a7f-c5421aa45510
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/source 200 64 ms - 10289
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot 200 283 ms - 89940
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Search your food item...' or . = 'Search your food item...') and @resource-id = 'com.abhiandroid.foodorderingindia:id/searchEditText']"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 36 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/window/rect[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/window/rect 200 18 ms - 50
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Search your food item...' or . = 'Search your food item...') and @resource-id = 'com.abhiandroid.foodorderingindia:id/searchEditText']"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 55 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009d-ffff-ffff00000490/location[39m
-[38;5;0m[HTTP][0m {}
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Replacing sessionId 933bde5d-f9ee-46f4-a766-3d6cfbd64c2d with 37187446-9d96-4519-8a7f-c5421aa45510
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009d-ffff-ffff00000490/location 200 13 ms - 77
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009d-ffff-ffff00000490/clear[39m
-[38;5;0m[HTTP][0m {"id":"00000000-0000-009d-ffff-ffff00000490"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009d-ffff-ffff00000490/clear 200 43 ms - 14
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009d-ffff-ffff00000490/value[39m
-[38;5;0m[HTTP][0m {"id":"00000000-0000-009d-ffff-ffff00000490","text":"Paneer Butter","value":["P","a","n","e","e","r"," ","B","u","t","t","e","r"]}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009d-ffff-ffff00000490/value 200 1046 ms - 14
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/source[39m
-[38;5;0m[HTTP][0m {}
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Replacing sessionId 933bde5d-f9ee-46f4-a766-3d6cfbd64c2d with 37187446-9d96-4519-8a7f-c5421aa45510
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/source 200 92 ms - 16261
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot 200 967 ms - 398460
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.abhiandroid.foodorderingindia:id/productImage' and (@text = '' or . = '')]"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 64 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/window/rect[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/window/rect 200 7 ms - 50
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.abhiandroid.foodorderingindia:id/productImage' and (@text = '' or . = '')]"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 68 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009d-ffff-ffff00000497/location[39m
-[38;5;0m[HTTP][0m {}
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Replacing sessionId 933bde5d-f9ee-46f4-a766-3d6cfbd64c2d with 37187446-9d96-4519-8a7f-c5421aa45510
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009d-ffff-ffff00000497/location 200 10 ms - 77
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009d-ffff-ffff00000497/click[39m
-[38;5;0m[HTTP][0m {"id":"00000000-0000-009d-ffff-ffff00000497"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009d-ffff-ffff00000497/click 200 71 ms - 14
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/source[39m
-[38;5;0m[HTTP][0m {}
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Replacing sessionId 933bde5d-f9ee-46f4-a766-3d6cfbd64c2d with 37187446-9d96-4519-8a7f-c5421aa45510
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/source 200 1105 ms - 24800
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot 200 1324 ms - 2037572
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Add To Cart' or . = 'Add To Cart') and @resource-id = 'com.abhiandroid.foodorderingindia:id/addToCart']"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 281 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/window/rect[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/window/rect 200 10 ms - 50
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Add To Cart' or . = 'Add To Cart') and @resource-id = 'com.abhiandroid.foodorderingindia:id/addToCart']"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 107 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009d-ffff-ffff000004ba/location[39m
-[38;5;0m[HTTP][0m {}
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Replacing sessionId 933bde5d-f9ee-46f4-a766-3d6cfbd64c2d with 37187446-9d96-4519-8a7f-c5421aa45510
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009d-ffff-ffff000004ba/location 200 21 ms - 79
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009d-ffff-ffff000004ba/click[39m
-[38;5;0m[HTTP][0m {"id":"00000000-0000-009d-ffff-ffff000004ba"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009d-ffff-ffff000004ba/click 200 163 ms - 14
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/source[39m
-[38;5;0m[HTTP][0m {}
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Replacing sessionId 933bde5d-f9ee-46f4-a766-3d6cfbd64c2d with 37187446-9d96-4519-8a7f-c5421aa45510
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/source 200 280 ms - 10764
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot 200 557 ms - 202572
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'ADD TO CART' or . = 'ADD TO CART') and @resource-id = 'com.abhiandroid.foodorderingindia:id/addToCart']"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 87 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/window/rect[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/window/rect 200 5 ms - 50
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'ADD TO CART' or . = 'ADD TO CART') and @resource-id = 'com.abhiandroid.foodorderingindia:id/addToCart']"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 17 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009e-ffff-ffff000004dc/location[39m
-[38;5;0m[HTTP][0m {}
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Replacing sessionId 933bde5d-f9ee-46f4-a766-3d6cfbd64c2d with 37187446-9d96-4519-8a7f-c5421aa45510
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009e-ffff-ffff000004dc/location 200 6 ms - 78
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009e-ffff-ffff000004dc/click[39m
-[38;5;0m[HTTP][0m {"id":"00000000-0000-009e-ffff-ffff000004dc"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009e-ffff-ffff000004dc/click 200 39 ms - 14
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/source[39m
-[38;5;0m[HTTP][0m {}
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Replacing sessionId 933bde5d-f9ee-46f4-a766-3d6cfbd64c2d with 37187446-9d96-4519-8a7f-c5421aa45510
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/source 200 78 ms - 6148
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot 200 422 ms - 244016
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Login' or . = 'Login') and @resource-id = 'com.abhiandroid.foodorderingindia:id/cancel_button']"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 71 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/window/rect[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/window/rect 200 8 ms - 50
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Login' or . = 'Login') and @resource-id = 'com.abhiandroid.foodorderingindia:id/cancel_button']"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 54 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009f-ffff-ffff000004f6/location[39m
-[38;5;0m[HTTP][0m {}
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Replacing sessionId 933bde5d-f9ee-46f4-a766-3d6cfbd64c2d with 37187446-9d96-4519-8a7f-c5421aa45510
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009f-ffff-ffff000004f6/location 200 14 ms - 79
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009f-ffff-ffff000004f6/click[39m
-[38;5;0m[HTTP][0m {"id":"00000000-0000-009f-ffff-ffff000004f6"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-009f-ffff-ffff000004f6/click 200 72 ms - 14
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/source[39m
-[38;5;0m[HTTP][0m {}
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Replacing sessionId 933bde5d-f9ee-46f4-a766-3d6cfbd64c2d with 37187446-9d96-4519-8a7f-c5421aa45510
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/source 200 741 ms - 11335
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot 200 793 ms - 1289800
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Email Address' or . = 'Email Address') and @resource-id = 'com.abhiandroid.foodorderingindia:id/email']"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 67 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/window/rect[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/window/rect 200 17 ms - 50
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Email Address' or . = 'Email Address') and @resource-id = 'com.abhiandroid.foodorderingindia:id/email']"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 59 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-00a0-ffff-ffff00000506/location[39m
-[38;5;0m[HTTP][0m {}
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Replacing sessionId 933bde5d-f9ee-46f4-a766-3d6cfbd64c2d with 37187446-9d96-4519-8a7f-c5421aa45510
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-00a0-ffff-ffff00000506/location 200 16 ms - 77
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-00a0-ffff-ffff00000506/clear[39m
-[38;5;0m[HTTP][0m {"id":"00000000-0000-00a0-ffff-ffff00000506"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-00a0-ffff-ffff00000506/clear 200 33 ms - 14
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-00a0-ffff-ffff00000506/value[39m
-[38;5;0m[HTTP][0m {"id":"00000000-0000-00a0-ffff-ffff00000506","text":"vaibhav.jain@abc.com","value":["v","a","i","b","h","a","v",".","j","a","i","n","@","a","b","c",".","c","o","m"]}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-00a0-ffff-ffff00000506/value 200 1068 ms - 14
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/source[39m
-[38;5;0m[HTTP][0m {}
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Replacing sessionId 933bde5d-f9ee-46f4-a766-3d6cfbd64c2d with 37187446-9d96-4519-8a7f-c5421aa45510
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/source 200 66 ms - 11342
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot 200 1649 ms - 1301456
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.FrameLayout' and (@text = '' or . = '')]"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 74 ms - 651
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.FrameLayout\")"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 61 ms - 651
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/window/rect[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/window/rect 200 7 ms - 50
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.FrameLayout[1]"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 60 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-00a0-ffff-ffff00000510/location[39m
-[38;5;0m[HTTP][0m {}
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Replacing sessionId 933bde5d-f9ee-46f4-a766-3d6cfbd64c2d with 37187446-9d96-4519-8a7f-c5421aa45510
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-00a0-ffff-ffff00000510/location 200 12 ms - 77
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-00a0-ffff-ffff00000510/click[39m
-[38;5;0m[HTTP][0m {"id":"00000000-0000-00a0-ffff-ffff00000510"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-00a0-ffff-ffff00000510/click 200 165 ms - 14
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/source[39m
-[38;5;0m[HTTP][0m {}
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Replacing sessionId 933bde5d-f9ee-46f4-a766-3d6cfbd64c2d with 37187446-9d96-4519-8a7f-c5421aa45510
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/source 200 1335 ms - 11393
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot 200 1126 ms - 440972
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Password' or . = 'Password') and @resource-id = 'com.abhiandroid.foodorderingindia:id/password']"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 75 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/window/rect[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/window/rect 200 11 ms - 50
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Password' or . = 'Password') and @resource-id = 'com.abhiandroid.foodorderingindia:id/password']"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 43 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-00a0-ffff-ffff00000512/location[39m
-[38;5;0m[HTTP][0m {}
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Replacing sessionId 933bde5d-f9ee-46f4-a766-3d6cfbd64c2d with 37187446-9d96-4519-8a7f-c5421aa45510
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-00a0-ffff-ffff00000512/location 200 13 ms - 77
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-00a0-ffff-ffff00000512/clear[39m
-[38;5;0m[HTTP][0m {"id":"00000000-0000-00a0-ffff-ffff00000512"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-00a0-ffff-ffff00000512/clear 200 16 ms - 14
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-00a0-ffff-ffff00000512/value[39m
-[38;5;0m[HTTP][0m {"id":"00000000-0000-00a0-ffff-ffff00000512","text":"test@1234","value":["t","e","s","t","@","1","2","3","4"]}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-00a0-ffff-ffff00000512/value 200 1344 ms - 14
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/source[39m
-[38;5;0m[HTTP][0m {}
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Replacing sessionId 933bde5d-f9ee-46f4-a766-3d6cfbd64c2d with 37187446-9d96-4519-8a7f-c5421aa45510
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/source 200 111 ms - 10919
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot 200 991 ms - 442004
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SIGN IN' or . = 'SIGN IN') and @resource-id = 'com.abhiandroid.foodorderingindia:id/signIn']"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 68 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/window/rect[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/window/rect 200 10 ms - 50
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SIGN IN' or . = 'SIGN IN') and @resource-id = 'com.abhiandroid.foodorderingindia:id/signIn']"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 79 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-00a0-ffff-ffff0000051b/location[39m
-[38;5;0m[HTTP][0m {}
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Replacing sessionId 933bde5d-f9ee-46f4-a766-3d6cfbd64c2d with 37187446-9d96-4519-8a7f-c5421aa45510
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-00a0-ffff-ffff0000051b/location 200 18 ms - 79
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-00a0-ffff-ffff0000051b/click[39m
-[38;5;0m[HTTP][0m {"id":"00000000-0000-00a0-ffff-ffff0000051b"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/element/00000000-0000-00a0-ffff-ffff0000051b/click 200 75 ms - 14
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/source[39m
-[38;5;0m[HTTP][0m {}
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Replacing sessionId 933bde5d-f9ee-46f4-a766-3d6cfbd64c2d with 37187446-9d96-4519-8a7f-c5421aa45510
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/source 200 1629 ms - 10641
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot 200 343 ms - 263368
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.Toast' and (@text = 'Account verification is pending. Please confirm your email.' or . = 'Account verification is pending. Please confirm your email.')]"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 60056 ms - 12
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Toast\").text(\"Account verification is pending. Please confirm your email.\")"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 60040 ms - 12
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.Toast' and (@text = 'Account verification is pending. Please confirm your email.' or . = 'Account verification is pending. Please confirm your email.')]"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 60065 ms - 12
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Toast\").text(\"Account verification is pending. Please confirm your email.\")"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 60027 ms - 12
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.Toast' and (@text = 'Account verification is pending. Please confirm your email.' or . = 'Account verification is pending. Please confirm your email.')]"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 60050 ms - 12
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Toast\").text(\"Account verification is pending. Please confirm your email.\")"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 200 60034 ms - 12
-[38;5;0m[HTTP][0m 
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Shutting down because we waited 1800 seconds for a command
-[38;5;16m[AppiumDriver@2a0e][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
-[38;5;16m[AppiumDriver@2a0e][0m Removing session '37187446-9d96-4519-8a7f-c5421aa45510' from our master session list
-[38;5;32m[AndroidUiautomator2Driver@ad48 (37187446)][0m Restoring hidden api policy to the device default configuration
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.Toast' and (@text = 'Account verification is pending. Please confirm your email.' or . = 'Account verification is pending. Please confirm your email.')]"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 404 21 ms - 2613
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.Toast' and (@text = 'Account verification is pending. Please confirm your email.' or . = 'Account verification is pending. Please confirm your email.')]"}
-[38;5;0m[HTTP][0m <-- POST /session/37187446-9d96-4519-8a7f-c5421aa45510/elements 404 1 ms - 2613
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/source[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/source 404 3 ms - 3160
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /session/37187446-9d96-4519-8a7f-c5421aa45510/screenshot 404 1 ms - 3160
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/session/37187446-9d96-4519-8a7f-c5421aa45510[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- DELETE /session/37187446-9d96-4519-8a7f-c5421aa45510 404 1 ms - 2613
-[38;5;0m[HTTP][0m 
-[Appium] Received SIGTERM - shutting down
-[38;5;0m[HTTP][0m Waiting until the server is closed
-[38;5;0m[HTTP][0m Received server close event
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              [38;5;32m[AndroidUiautomator2Driver@a51b (ec3e2f1f)][0m Shutting down because we waited 1800 seconds for a command
-[38;5;16m[AppiumDriver@1b57][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
-[38;5;16m[AppiumDriver@1b57][0m Removing session 'ec3e2f1f-b2af-4e4a-82f1-d56e99d40beb' from our master session list
-[38;5;32m[AndroidUiautomator2Driver@a51b (ec3e2f1f)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
-[38;5;32m[AndroidUiautomator2Driver@a51b (ec3e2f1f)][0m Restoring hidden api policy to the device default configuration
-[Appium] Received SIGTERM - shutting down
-[38;5;0m[HTTP][0m Waiting until the server is closed
-[38;5;0m[HTTP][0m Received server close event
