@@ -45,7 +45,7 @@ Mobile.tap(findTestObject('Object Repository/Android_Food_Order/android.widget.B
 Mobile.setText(findTestObject('Object Repository/Android_Food_Order/android.widget.EditText - Email Address'), 'vaibhav.jain@abc.com', 
     0)
 
-Mobile.setText(findTestObject('Object Repository/Android_Food_Order/android.widget.EditText - Password'), 'test@123434345', 0)
+Mobile.setText(findTestObject('Object Repository/Android_Food_Order/android.widget.EditText - Password'), 'test@12343', 0)
 
 Mobile.tap(findTestObject('Object Repository/Android_Food_Order/android.widget.Button - SIGN IN'), 0)
 
