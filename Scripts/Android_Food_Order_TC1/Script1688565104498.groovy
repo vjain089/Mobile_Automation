@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('/Users/vaibhavjain/Downloads/foodordering.apk', false)
+//Mobile.startApplication('/Users/vaibhavjain/Downloads/foodordering.apk', false)
+
+Mobile.startApplication('com.abhiandroid.foodorderingindia', false)
 
 Mobile.tap(findTestObject('Object Repository/Android_Food_Order/android.widget.TextView - Skip Login'), 0)
 
@@ -43,7 +45,7 @@ Mobile.tap(findTestObject('Object Repository/Android_Food_Order/android.widget.B
 Mobile.setText(findTestObject('Object Repository/Android_Food_Order/android.widget.EditText - Email Address'), 'vaibhav.jain@abc.com', 
     0)
 
-Mobile.setText(findTestObject('Object Repository/Android_Food_Order/android.widget.EditText - Password'), 'test@1234', 0)
+Mobile.setText(findTestObject('Object Repository/Android_Food_Order/android.widget.EditText - Password'), 'test@123434345', 0)
 
 Mobile.tap(findTestObject('Object Repository/Android_Food_Order/android.widget.Button - SIGN IN'), 0)
 
