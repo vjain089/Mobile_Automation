@@ -2,7 +2,7 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 
-Mobile.startApplication('/Users/vaibhavjain/Downloads/foodordering.apk', false)
+Mobile.startExistingApplication('com.abhiandroid.foodorderingindia')
 
 Mobile.tap(findTestObject('Object Repository/Android_Food_Order/android.widget.TextView - Skip Login'), 0)
 
