@@ -10,33 +10,18 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>788866b3-3536-405f-a0ae-8f4d7f505c8e</testSuiteGuid>
+   <testSuiteGuid>7ca561c4-3c48-4bb5-8b2c-917661f0a045</testSuiteGuid>
    <testCaseLink>
-      <guid>eee53e24-7086-4e66-854a-c3290524784b</guid>
+      <guid>2dc7d033-3e31-4d52-af26-a12c19672cb4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web_TC1</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>492db717-04d7-426f-9b68-eabb35d9db8f</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/New Test Data (1)</testDataId>
-      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>492db717-04d7-426f-9b68-eabb35d9db8f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Username</value>
-         <variableId>8d57169c-0789-4381-8d47-8cc2cd5e2d93</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>492db717-04d7-426f-9b68-eabb35d9db8f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Password</value>
-         <variableId>a48dd66d-270f-40b6-a0bb-59a7b4dbc38c</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>644a526f-ced0-40f2-9f0b-91fde0ea7ff3</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

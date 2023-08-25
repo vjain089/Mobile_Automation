@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_Comment_comment</name>
+   <name>input_Visit Date (Required)_visit_date</name>
    <tag></tag>
-   <elementGuidId>dea62eb4-642d-4e40-9b47-8436d9a36147</elementGuidId>
+   <elementGuidId>86c35d95-ee27-4c61-89ab-0988b19f1732</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#txt_comment</value>
+         <value>#txt_visit_date</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[@id='txt_comment']</value>
+         <value>//input[@id='txt_visit_date']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,8 +21,16 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>textarea</value>
-      <webElementGuid>48eddcc2-a337-46bf-a5e8-f26f6e2bf4c3</webElementGuid>
+      <value>input</value>
+      <webElementGuid>8e6a068e-53c2-4f6c-8b94-cd0878e93e16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>9b038cfb-6d5e-47fc-b547-f6b42127171f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,78 +38,78 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>e764b0b3-2f6b-438b-9ccc-88fd7c34aa50</webElementGuid>
+      <webElementGuid>8ab892ca-d978-4234-a23a-6652b3ef55f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>txt_comment</value>
-      <webElementGuid>5568f70e-cf7c-4385-9221-efe212030d22</webElementGuid>
+      <value>txt_visit_date</value>
+      <webElementGuid>c0064c09-b8fb-4809-b598-4f218da9ee1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>comment</value>
-      <webElementGuid>af9c4101-8602-4282-af4c-59a5a0089b8d</webElementGuid>
+      <value>visit_date</value>
+      <webElementGuid>ab046fc9-0fe7-4345-8513-8044fafea325</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Comment</value>
-      <webElementGuid>d1b5410b-2e97-4e61-92de-cf98d3d159c7</webElementGuid>
+      <value>dd/mm/yyyy</value>
+      <webElementGuid>c145b6bf-c2ce-44e3-afdd-c9b11be0f84f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>rows</name>
+      <name>autocomplete</name>
       <type>Main</type>
-      <value>10</value>
-      <webElementGuid>5f6f8d6b-0de1-4105-8a29-b4baaaff63cb</webElementGuid>
+      <value>off</value>
+      <webElementGuid>4d3c3f8a-48db-4d74-a4c2-6cd6066b6a61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;txt_comment&quot;)</value>
-      <webElementGuid>83731944-fc48-44ed-a57c-19636843d88b</webElementGuid>
+      <value>id(&quot;txt_visit_date&quot;)</value>
+      <webElementGuid>137535c3-f895-44ef-98c5-b9329b50a067</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//textarea[@id='txt_comment']</value>
-      <webElementGuid>42b92a07-ab0f-4279-988a-06f00acb3ad7</webElementGuid>
+      <value>//input[@id='txt_visit_date']</value>
+      <webElementGuid>8cce9009-ea0f-4488-81b1-7e0e131ac3b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='appointment']/div/div/form/div[5]/div/textarea</value>
-      <webElementGuid>9b6dc507-6906-411c-8b26-df897034f6d1</webElementGuid>
+      <value>//section[@id='appointment']/div/div/form/div[4]/div/div/input</value>
+      <webElementGuid>3b1f0b46-caf6-4ae6-a0bf-3b1b7777c748</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//textarea</value>
-      <webElementGuid>2e875d45-a399-43ff-afd7-432f138c0b67</webElementGuid>
+      <value>//div/input</value>
+      <webElementGuid>54ed5dd9-1170-452b-90ff-625339d2ea22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//textarea[@id = 'txt_comment' and @name = 'comment' and @placeholder = 'Comment']</value>
-      <webElementGuid>c6a0f79b-a7da-44d2-a92b-b002b4c17e19</webElementGuid>
+      <value>//input[@type = 'text' and @id = 'txt_visit_date' and @name = 'visit_date' and @placeholder = 'dd/mm/yyyy']</value>
+      <webElementGuid>dbf2ea06-3f3b-4d5f-ab4b-7b880de3a006</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

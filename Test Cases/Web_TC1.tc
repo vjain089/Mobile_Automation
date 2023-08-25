@@ -4,40 +4,18 @@
    <name>Web_TC1</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>2ee76408-cf7e-4263-a7e7-edc526613aca</testCaseGuid>
-   <testDataLinks>
-      <combinationType>ONE</combinationType>
-      <id>9e62d70c-f8e0-4344-8597-a9200ab31022</id>
-      <iterationEntity>
-         <iterationType>ALL</iterationType>
-         <value></value>
-      </iterationEntity>
-      <testDataId>Data Files/New Test Data (1)</testDataId>
-   </testDataLinks>
+   <testCaseGuid>eefcf2ce-dfb6-44d5-adf7-0bb13504c585</testCaseGuid>
    <variableLinks>
-      <testDataLinkId>9e62d70c-f8e0-4344-8597-a9200ab31022</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>Username</value>
-      <variableId>8d57169c-0789-4381-8d47-8cc2cd5e2d93</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId>9e62d70c-f8e0-4344-8597-a9200ab31022</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>Password</value>
-      <variableId>a48dd66d-270f-40b6-a0bb-59a7b4dbc38c</variableId>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>644a526f-ced0-40f2-9f0b-91fde0ea7ff3</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>findTestData('New Test Data (1)')</defaultValue>
+      <defaultValue>'John Doe'</defaultValue>
       <description></description>
-      <id>8d57169c-0789-4381-8d47-8cc2cd5e2d93</id>
+      <id>644a526f-ced0-40f2-9f0b-91fde0ea7ff3</id>
       <masked>false</masked>
       <name>Username</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestData('New Test Data (1)')</defaultValue>
-      <description></description>
-      <id>a48dd66d-270f-40b6-a0bb-59a7b4dbc38c</id>
-      <masked>false</masked>
-      <name>Password</name>
    </variable>
 </TestCaseEntity>

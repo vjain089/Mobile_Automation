@@ -17,21 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+Mobile.startApplication('/Users/vaibhavjain/Downloads/foodordering.apk', true)
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+Mobile.tap(findTestObject('Object Repository/Android_Food_Order/android.widget.TextView - Skip Login (1)'), 0)
 
-WebUI.maximizeWindow()
+Mobile.tap(findTestObject('Object Repository/Android_Food_Order/android.widget.TextView - MAIN COURSE'), 0)
 
-WebUI.takeScreenshotAsCheckpoint('Book_Appointment_Page')
+Mobile.tap(findTestObject('Object Repository/Android_Food_Order/android.widget.ImageView (2)'), 0)
 
-WebUI.click(findTestObject('null'))
+Mobile.setText(findTestObject('Object Repository/Android_Food_Order/android.widget.EditText - Search your food item (1)'), 
+    'Paneer', 0)
 
-WebUI.setText(findTestObject('null'), 'John Doe')
+Mobile.takeScreenshotAsCheckpoint('Paneer_MainCourse', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setEncryptedText(findTestObject('null'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+Mobile.tap(findTestObject('Object Repository/Android_Food_Order/android.widget.ImageView (3)'), 0)
 
-WebUI.click(findTestObject('null'))
+Mobile.tap(findTestObject('Object Repository/Android_Food_Order/android.widget.ImageView (4)'), 0)
 
-WebUI.takeScreenshotAsCheckpoint('Login_Page')
+Mobile.tap(findTestObject('Object Repository/Android_Food_Order/android.widget.ImageView (5)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Android_Food_Order/android.widget.Button - ADD TO CART (2)'), 0)
+
+Mobile.closeApplication()
 
