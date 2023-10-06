@@ -1,0 +1,23 @@
+workflows:
+  katalon-tests:
+    name: Katalon Tests
+    environment:
+      vars:
+        KATALON_VERSION: "8.6.8"
+    scripts:
+      - name: Install wget
+        script: |
+          brew install wget
+          wget https://github.com/katalon-studio/katalon-studio/releases/download/v8.6.8/Katalon_Studio_Engine_MacOS-8.6.8.tar.gz
+          mkdir katalon-studio
+          ls -l
+      - name: Download Katalon Runtime Engine
+        script: |
+          pwd
+          tar -xzf Katalon_Studio_Engine_MacOS-8.6.8.tar.gz -C katalon-studio
+          ls -l katalon-studio/Katalon_Studio_Engine_MacOS-8.6.8/Katalon\ Studio\ Engine.app/Contents/MacOS
+          pwd
+      - name: Execute Katalon Tests
+        script: |
+          ls -l
+          katalon-studio/Katalon_Studio_Engine_MacOS-8.6.8/Katalon\ Studio\ Engine.app/Contents/MacOS/katalonc -testSuitePath="Test Suites/Prueba" -executionProfile="default" --config -webui.autoUpdateDrivers=true -orgId="1261789" -apiKey="0a5120e1-528e-4af3-84d4-99aaf18f2904" -testOpsProjectId="1231097" -projectPath="$FCI_PROJECT_DIR" -reportFolder="$FCI_PROJECT_DIR/report/$(date +'%Y%m%d_%H%M%S')" -report -browserType="Chrome"
